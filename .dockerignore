@@ -1,0 +1,8 @@
+.venv
+__pycache__
+*.pyc
+chroma_langchain_db
+.idea
+.vscode
+.git
+*.pdf

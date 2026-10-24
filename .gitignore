@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Vector database
+chroma_langchain_db/
+*.sqlite3
+
+# User documents (copyright + size; never commit these)
+*.pdf
+
+# Secrets / local config
+.env
+.env.*
+
+# Gradio temp files
+.gradio/
+flagged/
+
+# IDEs and OS files
+.idea/
+.vscode/
+.DS_Store
